@@ -1,0 +1,192 @@
+.parallax { 
+  background-image: url("../imagens/background.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
+nav{
+  text-align: center;
+  margin: auto;
+  padding: 2%;
+  background-color: #514c4c;
+  border-radius: 9px;
+  box-shadow: 0px 2px 2px 2px black;
+}
+nav a{
+  font-family: CRYSIS, sans-serif, verdana;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 2.5% 3% 0% 2.5%;
+  color: white;
+}
+.indicador{
+  color: #08fce2;
+}
+nav>a:hover, nav>a:hover>a {
+  color: #08fce2;
+}
+#conteudo{
+  margin: auto;
+  padding: 2%;
+}
+#chat{
+  border: solid 1px #514c4c;
+  width: auto;
+  max-width: 30%;
+  min-width: 20%;
+  max-height: 30%;
+  padding: 5px 7px 7px 7px;
+  background-color: #514c4c;
+  border-radius: 9px;
+  box-shadow: 0px 2px 2px 2px black;
+  margin: 0;
+}
+#chat h3{
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-family: OCR-A BT, sans-serif, verdana;
+  color: white;
+}
+#log {
+  height: 228px;
+  max-width: 100%;
+  overflow:auto;
+  font-family: sans-serif, verdana;
+  background-color: white;
+  border-bottom: solid 1px black;
+  font-size: 15px;
+  padding: 0px 0px 0px 4px; 
+  border-radius: 5px 5px 0px 0px;
+  color: #514c4c;
+  margin-bottom: 2px;
+}
+#chat input{
+  width:auto;
+  min-width: 85%;
+  max-width: 94%;
+  font-family: sans-serif, verdana;
+  color: #514c4c;
+}
+.send{
+  border-radius: 3px;
+  color: #514c4c;
+  background-color: white;
+  width: auto;
+  min-width: 12.5%;
+  max-width: 100%;
+}
+.reconnect{
+  border-radius: 3px;
+  min-width: 100%;
+  margin-top: 3px;
+  color: #514c4c;
+  background-color: white;
+}
+footer{
+  margin: auto;
+  padding: 3%;
+  background-color: #514c4c;
+  border-radius: 9px;
+  box-shadow: 0px 2px 2px 2px black;
+}
+footer span{
+  color: white;
+  font-family: sans-serif, verdana;
+}
+
+/*----------------------------------------------------------------*/
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+    text-align: -webkit-center;
+}
+.overlay-content {
+    min-width: 100%;
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: -moz-center;
+}
+#roleta h1, #infos h1{
+    color: white;
+    font-family: OCR-A BT, sans-serif, verdana;
+    font-size: 110%;
+    max-width: 100%;
+}
+
+#roleta #img{
+  max-width: 100%;
+}
+#roleta{
+    text-align: center;
+    position: relative;
+    right: 15%;
+    width: 50%;
+}
+#infos{
+    width: 33%;
+    border: 1px solid #FFF;
+    position: relative;
+    /* margin: 0% 0% 0% 50%; */
+    bottom: 500px;
+    left: 28%;
+    background-color: #514c4c;
+    border-radius: 9px;
+    box-shadow: 0px 2px 2px 2px white;
+    padding: 0% 0.5% 0% 0.5%;
+}
+#infos div{
+    background-color: white;
+    border-radius: 9px;
+    height: 400px;
+    margin-bottom: 8px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: -1%;
+    right: 4%;
+    font-size: 40px;
+}
+
+@media screen and (max-height: 100%) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: -1%;
+    right: 4%;
+  }
+}

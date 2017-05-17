@@ -1,0 +1,167 @@
+.parallax{
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+#box{
+  box-shadow:0px 1px 1px 1px black;
+  border-radius: 2px 2px 0px 0px;
+  width:203px;
+  background-color:#0094a4;
+  position:fixed;
+  bottom:0px;
+}
+#sumApa{
+  padding:3px 0px 3px 0px;
+  margin: 0;
+  color:white;
+  text-align:center;
+  font-size:16px;
+}
+.on{
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background-color:green;
+}
+#sair{
+  padding:0px 3px 1px 3px;
+  margin:0;
+  color:white;
+  position:absolute;
+  left:183px;
+  font-weight:bold;
+  top: -3px;
+  text-align:center;
+}
+#chat{
+  box-shadow:0px 0px 1px 0px black;
+  overflow-x: auto;
+  height:200px;
+  background-color:rgba(255,255,255,0.9);
+  border-radius: 2px 2px 0px 0px;
+  position:relative;
+  margin: 0px 2% 3px 2%;
+}
+h1, h2{
+  text-align:center;
+}
+.work{
+  text-align:center;
+  color:#005f8a;
+}
+#box input{
+  margin: 0px 2% 3px 2%;
+  width: 142px;
+}
+#send{
+  width:45px;
+}
+#chat p, h5{
+  padding: 3px;
+  margin: 0;
+}
+#chat p{
+  font-size:13px;
+  margin-left:13px;
+}
+#status{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background-color:#00f57a;
+  position:absolute;
+  top:4px;
+  left:6px;
+}
+#ya{
+  border-bottom:solid 0.5px black;
+  margin:0;
+  border-radius:2px 2px 0px 0px;
+}
+#iz{
+  border-bottom:solid 0.5px black;
+  margin:0;
+}
+#op{
+  border-bottom:solid 0.5px black;
+  margin:0;
+}
+#op1{
+  border-bottom:solid 0.5px black;
+  margin:0;
+}
+#op2{
+  border-bottom:solid 0.5px black;
+  margin:0;
+}
+#op3{
+  margin:0;
+}
+nav{
+  padding: 1%;
+  background-color:#0094a4;
+  text-align:center;
+}
+nav a{
+ text-decoration:none;
+ padding: 1%;
+ font-size:17px;
+ color:white;
+ border: 0;
+ text-transform: uppercase;
+}
+#conteudos{
+  padding: 2%;
+}
+.apresenta{
+  font-size: 20px;
+}
+#cadastro{
+  width:300px;
+  box-shadow:0px 1px 1px 1px black;
+  text-align:left;
+  padding: 1%;
+  background-color:#0094a4;
+  color: white;
+  border-radius:5px;
+  margin: auto;
+}
+.titulo{
+  color:white;
+}
+#cadastro button{
+  background-color:white;
+  position:relative;
+  left:40%;
+  margin-bottom:5px;
+}
+.entrada1{
+  width:70%;
+}
+.entrada2{
+  width:57%;
+}
+
+#cadastroConcluido{
+  width:300px;
+  box-shadow:0px 1px 1px 1px black;
+  text-align:center;
+  padding: 1%;
+  background-color:#0094a4;
+  color: white;
+  border-radius:5px;
+  margin: auto;
+}
+
+#h{
+  color:yellow;
+}
+
+#pics{
+  height:200px;
+}
+#conteudo{
+  text-align:center;
+}

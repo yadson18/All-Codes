@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Jogo da forca</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<form action="php/cadastroJogador.php" method="POST" id="formCadastro">
+			<h3>Cadastro</h3>
+			<input type="text" name="usuario" placeholder="Usuário" required>
+			<input type="password" name="senha" placeholder="Senha" required>
+			<input type="text" name="nome" placeholder="Nome" required>
+			<input type="text" name="sobrenome" placeholder="Sobrenome" required>
+			<input type="number" name="idade" placeholder="Idade" required>
+			<input type="submit" value="Cadastrar" class="btn">
+			<br>
+			<a href="index.html">Retornar</a>
+		</form>
+	</body>
+</html>

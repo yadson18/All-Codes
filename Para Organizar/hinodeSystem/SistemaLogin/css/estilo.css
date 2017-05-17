@@ -1,0 +1,89 @@
+#register-login-form{
+	width: 65%;
+	text-align: center;
+	box-shadow: 3px 4px 6px gray;
+	padding: 9px;
+	position:absolute;
+	top:5%;
+	left: 30%;
+	margin-left:-15%;
+	border-radius: 3px;
+	background-image: url("../img/pttern.jpg");
+	border: solid 1.5px #00afcf;
+}
+#register-login-form input{
+	width: 95%;
+	margin-top: 14px;
+	font-size: 20px;
+}
+#register-login-form p{
+	margin: 10px 0px 0px 0px;
+	padding: 0;
+	color: red;
+	font-size: 16px;
+	font-family: sans-serif;
+	display: none;
+}
+#register-login-form h2{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: sans-serif;
+	color: #00afcf;
+}
+#register-login-form div{
+	width: 120px;
+	border: solid 1.5px #00afdf;
+	margin: auto;
+}
+#register-login-form a{
+	padding: 1px 27px 1px 27px;
+	text-decoration: none;
+	color: #00afdf;
+}
+#register-login-form #submitButton{
+	margin-bottom: 14px;
+	width: 40%;
+	color: #00afdf;
+	border-color: #00afdf;
+}
+#menu-nav{
+	width: 65%;
+	margin: auto;
+	text-align: center;
+	border: solid;
+	position: relative;
+	top: 100px;
+	box-shadow: 3px 4px 6px gray;
+	background-image: url("../img/pttern.jpg");
+	border: solid 1.5px #00afcf;
+}
+#menu-nav ul{
+	margin: 0;
+	padding: 0;
+}
+#menu-nav h2{
+	padding: 0;
+	color: #00afcf;
+	text-transform: uppercase;
+}
+#menu-nav ul{
+	list-style: none;
+	display: inline;
+}
+#menu-nav ul li{
+	border-top: solid 1.5px #00afcf;
+	padding: 10px;
+	text-transform: uppercase;
+	color: #00afcf;
+}
+
+
+
+
+
+
+
+
+
+
+

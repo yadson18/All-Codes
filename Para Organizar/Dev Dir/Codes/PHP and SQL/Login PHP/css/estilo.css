@@ -1,0 +1,19 @@
+form{
+	border: solid 1px black;
+	padding: 7px;
+	width: 50%;
+	margin: auto;
+}
+form input{
+	width: 95%;
+}
+.button{
+	margin-top: 14px;
+}
+.link{
+	font-size: 10px;
+	text-decoration: none;
+}
+body{
+	text-align: center;
+}

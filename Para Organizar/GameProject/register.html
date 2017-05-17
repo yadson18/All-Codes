@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jogo da forca - registro</title>
+	<link rel="stylesheet" type="text/css" href="/GameProject/css/pagesStyle.css">
+	<script type="text/javascript" src="/GameProject/js/jquery-3.1.1.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<form action="/GameProject/php/user-actions/makeRegister.php" method="POST" id="register-form">
+		<h2>Cadastro</h2>
+		<input type="text" name="usr_login" required placeholder="Usuário">
+		<input type="password" name="usr_password" required placeholder="Senha" class="pass">
+		<input type="password" required placeholder="Confirmar senha" class="checkPass">
+		<p class="incorrectPwd hide">A senha não corresponde a senha digitada.</p>
+		<input type="text" name="usr_name" required placeholder="Nome completo">
+		<input type="number" name="usr_age" required placeholder="Idade">
+		<input type="submit" value="Registrar-se" id="submitButton">
+		<div>
+			<a href="index.html">Login</a>
+		</div>
+	</form>
+	<script type="text/javascript" src="/GameProject/js/confirmPassword.js"></script>
+</body>
+</html>

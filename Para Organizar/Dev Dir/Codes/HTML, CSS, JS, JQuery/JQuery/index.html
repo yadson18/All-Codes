@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery</title>
+	<script src="jquery-3.1.1.js"></script>
+	<style type="text/css">
+		body{
+			background:  black;
+		}
+		.div{
+			border: solid;
+			height: 200px;
+			font-size: 50px;
+			background-color: white;
+		}
+		#entrada{
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<span>paragrafo</span>
+	<span id="id">outro span</span>
+	<span class="class">outro span</span>
+	<br><button id="paraOThis">This</button><br>
+
+	<br><div class="div" id="div">Events</div>
+	<br><div class="div" id="div2">Events</div>
+	<br><input type="text" name="name" id="entrada"><br><br><br>
+
+	<button id="button">Toggle</button><br><br>
+	<button id="hide">Hide</button><br><br>
+	<button id="show">Show</button><br><br>
+	<div class="div" id="esconder">Hello</div>
+
+	<script type="text/javascript">
+		//Seletores
+			$("span").hide();
+			$("#id").hide();
+			$(".class").hide();
+			$("#paraOThis").on("click", function(){
+				$(this).hide();	
+			});
+
+		//Eventos 
+			$("#div").click(function(){
+				$(this).css("color", "red");
+			});
+			$("#div").dblclick(function(){
+				$(this).css("color", "green");
+			});
+			$("#div").mouseenter(function(){
+				$(this).css("color", "gray");
+			});
+			$("#div").mouseleave(function(){
+				$(this).css("color", "blue");
+			});
+
+			$("#div2").hover(function(){
+				$(this).css("color", "blue");
+			});
+			$("#div2").mousedown(function(){
+				$(this).css("color", "red");
+			});
+			$("#div2").mouseup(function(){
+				$(this).css("color", "green");
+			});
+			$("#entrada").focus(function(){
+				$(this).css("background-color", "#585858");
+			});
+			$("#entrada").blur(function(){
+				$(this).css("background-color", "white");
+			});
+
+		//Hide/Show
+			$("#button").click(function(){
+				$("#esconder").toggle();
+			});
+
+			$("#hide").click(function(){
+				$("#esconder").hide();
+			});
+
+			$("#show").click(function(){
+				$("#esconder").show();
+			});
+
+
+	</script>
+</body>
+</html>

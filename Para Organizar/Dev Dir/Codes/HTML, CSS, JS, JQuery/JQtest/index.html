@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet">
+	<script src="js/jquery-3.1.1.js"></script>
+	<style>
+	  .right{
+	    transition: 5s;
+	    position: relative;
+		left: 30%;
+	  }
+    </style>
+  </head>
+  <body>
+   <h1 id="h1">My Website</h1>
+   <script>
+	 $("#h1").on("click", function(){
+	   $(this).addClass("right");
+	 });
+   </script>
+	<h1 id="ti">H1</h1>
+   <script>
+	 $("#ti").on("click", function(){
+	   $(this).hide();
+	 });
+   </script>
+  </body>
+</html>		

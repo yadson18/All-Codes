@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Class Maker</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<script src="js/jquery-3.1.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body id="main">
+	<form action="submitClass.php" method="POST" id="form">
+		<h2>Criar Classe</h2>
+		<table id="tabela">
+			<tr>
+				<td>
+					Acesso à classe
+				</td>
+				<td>
+					<select name="classAcss">
+						<option value="public">public</option>
+						<option value="abstract">abstract</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Nome da classe
+				</td>
+				<td>
+					<input type="text" required placeholder="Ex: Carro" name="className">
+				</td>
+			</tr>
+			<tr>
+				<td>	
+					Quantidade de atributos
+				</td>
+				<td>
+					<input type="number" class="number" required placeholder="Ex: 5" name="qtdAtributos"> <a href="#" class="next">Próximo</a>
+				</td>
+			</tr>
+		</table>
+		<input type="submit" value="Criar" class="button"/>
+	</form>
+	<script src="js/script.js"></script>
+</body>
+</html>

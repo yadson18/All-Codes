@@ -1,0 +1,33 @@
+body{
+  font-size: 30pt;
+  height:830px;
+  text-align:center;
+}
+.corp{
+  background-color: #bfbfbf;
+}
+#botao{
+  box-shadow: 0px 0px 5px 1px black;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  background-color:white;
+}
+.opcao{
+  box-shadow: 0px 0px 3px 1px black;
+  width: 50%;
+  height: 50px;
+  background-color: #0af;
+  border-radius: 5px;
+}
+.move{
+  position: relative;
+  left: 49px;
+}
+.entrada{
+  pointer-events: none; 
+  background-color: #bfbfbf;
+}
+input{
+  width:80%;
+}

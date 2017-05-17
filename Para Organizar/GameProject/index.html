@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jogo da forca - Login</title>
+	<link rel="stylesheet" type="text/css" href="/GameProject/css/pagesStyle.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<form action="/GameProject/php/user-actions/checkLogin.php" method="POST" id="login-form">
+		<h2>Entrar</h2>
+		<input type="text" name="usr_login" required placeholder="Usuário">
+		<input type="password" name="usr_password" required placeholder="Senha">
+		<input type="submit" value="Entrar" id="submitButton">
+		<div>
+			<a href="register.html">Cadastrar-se</a>
+		</div>
+	</form>
+</body>
+</html>

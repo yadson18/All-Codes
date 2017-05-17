@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<script src="js/jquery-3.1.1.js"></script>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1 id="dica"></h1>
+	<h2 id="palavra"></h2>
+	
+	<input type="text" id="letra" maxlength="1">
+	<button id="btn">Enviar</button>
+	<script>
+		var dica = "É um felino.";
+		var palavra = "gato";
+		
+		function compare(letra, palavra){
+			var size = 0;
+			
+			for(var i = 0; i < palavra.length;){
+				if(letra == palavra[i]){
+					size++;
+					i++;
+				}
+				else{
+					i++;
+				}
+			}
+			
+			return size;
+		}
+		
+		$("#dica").append(dica);
+		$("#palavra").append(palavra);
+		
+		var palavra2 = [];
+		
+		$("#btn").on("click", function(){
+			var letra = $("#letra").val();
+			var letraQuantidade = compare(letra, palavra);
+			
+			compare(letra, palavra2);
+
+			if(letraQuantidade > 0){
+				for(var i = 0; i < letraQuantidade; i++){
+					palavra2.unshift(letra);
+				}
+			}
+			console.log(palavra2[letraQuantidade-1]);
+			//$("#letra").after("<div>" + letraQuantidade + "</div>");
+		});
+	</script>
+</body>
+</html>

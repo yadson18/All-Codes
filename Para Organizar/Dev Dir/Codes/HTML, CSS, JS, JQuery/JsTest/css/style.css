@@ -1,0 +1,90 @@
+nav{
+  padding: 1%;
+  background-color:#0094a4;
+  text-align:center;
+}
+nav a{
+ text-decoration:none;
+ padding: 1%;
+ font-size:17px;
+ color:white;
+ border: none;
+}
+footer{
+  padding: 3%;
+  background-color:#0094a4;
+}
+footer p{
+  color: White;
+}
+#conteudos{
+  text-align:center;
+  padding: 2%;
+  height:380px;
+}
+h1{
+  font-size:23px;
+  text-align:center;
+}
+h2{
+  font-size:20px;
+  text-align:center;
+}
+#cadastro{
+  width:70%;
+  box-shadow:0px 1px 1px 1px black;
+  text-align:left;
+  padding: 1%;
+  position:relative;
+  left:14%;
+  background-color:#0094a4;
+  color: white;
+  border-radius:5px;
+}
+#cadastro h1{
+  color:white;
+}
+#cadastro button{
+  background-color:white;
+  position:relative;
+  left:33%;
+  margin-bottom:5px;
+}
+.entrada1{
+  width:70%;
+}
+.entrada2{
+  width:57%;
+}
+
+#cadastroConcluido{
+  width:60%;
+  box-shadow:0px 1px 1px 1px black;
+  text-align:center;
+  padding: 1%;
+  position:relative;
+  left:19%;
+  background-color:#0094a4;
+  color: white;
+  border-radius:5px;
+}
+#cadastroConcluido h1{
+  color:white;
+}
+#cadastroConcluido h2{
+  color:white;
+}
+
+.fix{
+  position:fixed;
+  top: 300px;
+  left:28%;
+}
+
+#h{
+  color:yellow;
+}
+
+#pics{
+  height:200px;
+}

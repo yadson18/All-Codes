@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet">
+	<script src="js/jquery-3.1.1.js"></script>
+      <style>
+        .hide{
+		  display: none;
+		}
+      </style>
+  </head>
+  <body>
+	<div id="cont">
+      <div id="a"></div>
+	  <button class="bt1">Click</button>
+	</div>
+	<script>
+	  $(".bt1").click(function(){
+	    setTimeout(function(){
+	      $("#cont").load("hell.txt");
+	    }, 5000);
+	  });
+	  
+	  $(".bt").click(function(){
+    	$(".dv").toggle();
+      });
+	</script>
+  </body>
+</html>		

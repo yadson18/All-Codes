@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Aleatório</title>
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jquery-3.1.1.js"></script>
+		 <style>
+				body{
+					text-align: center;
+					background-color: #00afff;
+					color: white;
+				}
+				#btn{
+					margin-top: 15px;
+					width: 30%;
+					height: 50px;
+					color: white;
+					border: solid 2px white;
+					background-color: #00afff;
+					text-transform: uppercase;
+					font-weight: bold;
+				}
+				#letra{
+					border: solid 2px white;
+					height: 200px;
+					margin-top: 100px;
+				}
+				#lt{
+					margin-top: 64px;
+					font-size: 50px;
+				}
+		 </style>
+</head>
+<body>
+	<div id="letra"></div>
+	<button id="btn">Click aqui!</button>
+	<script>
+		var letras = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','X','Y','Z'];
+		var numero;
+		$("#btn").on("click", function(){
+			numero = Math.round((Math.random() * 24));
+			$("#lt").remove();
+			$("#letra").append("<h1 id='lt'>" + letras[numero] + "</h1>");
+		});
+	</script>
+</body>
+</html>

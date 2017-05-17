@@ -1,0 +1,25 @@
+body{
+  height:700px;
+}
+#box{
+  position: fixed;
+  bottom:0;
+  background-color:#009afa;
+  padding: 0 10px 0 10px;
+  width:256px;
+}
+.chat{
+  height:300px;
+  background-color:white;
+}
+.nameBar{
+  margin: 0;
+  font-size:25px;
+}
+.close{
+  position:relative;
+  bottom:20px;
+  left:234px;
+  font-size:23px;
+  padding: 8px 8px 8px 8px;
+}

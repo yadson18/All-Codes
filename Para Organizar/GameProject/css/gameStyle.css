@@ -1,0 +1,113 @@
+#buttons{
+	margin: 0;
+	padding: 0;
+	width: 340px;
+	height: 164px;
+	text-align: center;
+	border: solid 1px;
+	margin: auto;
+}
+#buttons .letter{
+	width: 35px;
+	height: 35px;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 3px;
+}
+#doll{
+	width: 105px;
+	height: 152px;
+	position: absolute;
+	top: 43px;
+	left: 60.5px;
+	background-image: url("../img/body.jpeg");
+	background-size: 150px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#gallows{
+	position: relative;
+}
+h1, h2{
+	padding: 0;
+	margin: 0;
+}
+#head{
+	position: relative;
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	left: 36px;
+	top: 0.5px;
+}
+#leftHand{
+	position: relative;
+	width: 46px;
+	height: 15px;
+	top: -13px;
+	left: -2px;
+	border-radius: 10px 0px 0px 10px;
+	transform: rotate(32deg);
+}
+#rightHand{
+	position: relative;
+	width: 46px;
+	height: 15px;
+	top: -29px;
+	left: 62px;
+	border-radius: 10px 0px 0px 10px;
+	transform: rotate(147deg);
+}
+#body{
+	position: relative;
+	width: 34px;
+	top: -30.2px;
+	left: 36.2px;
+	height: 63px;
+	border-radius: 10px 10px 0px 0px;
+}
+#leftFoot{
+	position: relative;
+	width: 16px;
+	height: 65px;
+	top: -37px;
+	left: 25.5px;
+	border-radius: 0px 0px 10px 10px;
+	transform: rotate(18deg);
+}
+#rightFoot{
+	position: relative;
+	width: 16px;
+	height: 65px;
+	top: -102px;
+	left: 65.5px;
+	border-radius: 0px 0px 10px 10px;
+	transform: rotate(342deg);
+}
+.hideBody{
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

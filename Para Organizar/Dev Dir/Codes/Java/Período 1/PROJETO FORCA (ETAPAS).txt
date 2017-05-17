@@ -1,0 +1,48 @@
+We dont say goodbye.
+
+Projeto da Forca.
+
+1°) Fazer o "Menu".						(V)
+2°) Fazer o código básico todo dentro do "Main".		()
+3°) Separar o código em "Subprogramas".				()
+4°) Separar o código em "Subprogramas" e "Tipos Compostos"	()
+
+              |¨¨|
+	    \()/ |
+	     []  |
+	     ||  |
+
+palavras[0] = "Gato";
+        palavras[1] = "Donald";
+        palavras[2] = "YouTube";
+        palavras[3] = "Melancia";
+        palavras[4] = "The Beatles";
+        palavras[5] = "Gato";
+        palavras[6] = "Gato";
+        palavras[7] = "Gato";
+        palavras[8] = "Gato";
+        palavras[9] = "Gato";
+        palavras[10] = "Gato";
+        palavras[11] = "Gato";
+        palavras[12] = "Gato";
+        palavras[13] = "Gato";
+        palavras[14] = "Gato";
+        palavras[15] = "Gato";
+
+dicas[0] = "Felino (4) letras.";
+        dicas[1] = "Pato Da Disney. (6) letras";
+        dicas[2] = "Site de vídeos (7) letras.";
+        dicas[3] = "Fruta Com Interior Vermelho E Caroços. (8) letras.";
+        dicas[4] = "Felino doméstico.";
+        dicas[5] = "Felino doméstico.";
+        dicas[6] = "Felino doméstico.";
+        dicas[7] = "Felino doméstico.";
+        dicas[8] = "Felino doméstico.";
+        dicas[9] = "Felino doméstico.";
+        dicas[10] = "Felino doméstico.";
+        dicas[11] = "Felino doméstico.";
+        dicas[12] = "Felino doméstico.";
+        dicas[13] = "Felino doméstico.";
+        dicas[14] = "Felino doméstico.";
+        dicas[15] = "Felino doméstico.";
+        

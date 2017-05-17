@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test</title>
+  <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+  <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+<div class="drag-drop clearfix">
+ 
+    <!-- Elementos que serão arrastados -->
+    <div class="drag-container clearfix">
+        <div class="drag list-group-item" type="text" id="text">Title</div>
+        <div class="drag list-group-item">2</div>
+        <div class="drag list-group-item">3</div>
+        <div class="drag list-group-item"><input type="text" name="test"></div>
+    </div> <!-- .drag-container -->
+ 
+    <!-- Elementos que serão soltos e reordenados -->
+    <div class="drop-container clearfix test">
+    </div> <!-- .drop-container -->
+  
+</div> <!-- .drag-drop -->
+ 
+<!-- Lixeira -->
+<div class="lixeira">
+    Arraste aqui para apagar
+</div> <!-- .lixeira -->
+ 
+<!-- Botão para salvar os dados -->
+<button class="salvar">Salvar</button>
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,217 @@
+*{
+    padding : 0;
+    margin : 0;
+    font-family: sans-serif;
+}
+@media screen and (min-width: 651px) {
+	nav ul{
+		list-style: none;
+		overflow: hidden;
+	}
+	nav ul li a{
+		display: block;
+		padding: 8px;
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+	}
+	nav ul li{
+		display: inline;
+		float: left;
+	}
+	nav{
+		background-color: #00aaff;
+		width: 100%;
+	}
+	.login-form{
+		width: 30%;
+		margin: auto;
+		box-shadow: 1px 1px 4px gray;
+		padding: 5px 6px 5px 5px;
+		position: relative;
+		top: 30px;
+		border-radius: 2px;
+		background-image: url("../img/pttern.jpg");
+		border: solid 1.5px #00aaff;
+	}
+	.login-form label{
+		font-size: 18px;
+	}
+	.login-form h1{
+		text-align: center;
+		font-size: 25px;
+		text-transform: uppercase;
+		font-weight: normal;
+	}
+	.login-form input{
+		width: 96.5%;
+		font-size: 18px;
+		margin: 3px 0px 3px 0px;
+	}
+	.login-form .btn{
+		width: 30%;
+		margin: auto;
+		position: relative;
+		top: 7px;
+	}
+	.login-form .link{
+		text-align: center;
+		margin: 19px 0px 9px 0px;
+	}
+	.login-form .link a{
+		border: solid 1px #afafaf;
+		border-radius: 4px;
+		background-color: white;
+		color: black;
+		padding: 3px;
+		text-decoration: none;
+		font-size: 15px;
+		color: #4f4f4f;
+	}
+	.main{
+		margin: auto;
+		width: 50%;
+		position: relative;
+		top: 30px;
+		padding: 7px;
+		list-style: none;
+		text-align: center;
+		background-color: #00aaff;
+	}
+	.main li a{
+		text-decoration: none;
+		padding: 7.5px 56px 7.5px 56px;
+		color: #00aaff;
+		position: relative;
+		top: 7.5px;
+	}
+	.main li{
+		border-top: solid 2px #afafaf;
+		border-left: solid 2px #afafaf;
+		border-right: solid 2px gray;
+		border-bottom: solid 2px gray;
+		margin: 4px 0px 4px 0px;
+		height: 37px;
+		background-color: white;
+	}
+}
+@media screen and (max-width: 650px) {
+	nav ul{
+		list-style: none;
+		overflow: hidden;
+	}
+	nav ul li a{
+		display: block;
+		padding: 8px;
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+	}
+	nav ul li{
+		display: inline;
+		float: left;
+	}
+	nav{
+		background-color: #00aaff;
+		width: 100%;
+	}
+	.login-form{
+		width: 50%;
+		margin: auto;
+		box-shadow: 1px 1px 4px gray;
+		padding: 5px 6px 5px 5px;
+		position: relative;
+		top: 30px;
+		border-radius: 2px;
+		background-image: url("../img/pttern.jpg");
+		border: solid 1.5px #00aaff;
+	}
+	.login-form label{
+		font-size: 18px;
+	}
+	.login-form h1{
+		text-align: center;
+		font-size: 21px;
+	}
+	.login-form input{
+		width: 100%;
+		font-size: 16px;
+	}
+	.login-form a{
+		text-decoration: none;
+		text-align: center;
+		font-size: 12px;
+	}
+	.login-form .btn{
+		width: 45%;
+		margin: auto;
+		position: relative;
+		top: 7px;
+	}
+	.formStyle{
+		padding-bottom: 14px;
+	}
+	.login-form .link{
+		text-align: center;
+		margin: 11px 0px 1px 0px;
+	}
+	.login-form .link a{
+		border: solid 1px #bfbfbf;
+		border-radius: 2px;
+		background-color: white;
+		color: black;
+		padding: 0px 3px 1px 3px;
+	}
+	.main{
+		margin: auto;
+		width: 50%;
+		position: relative;
+		top: 30px;
+		padding: 7px;
+		list-style: none;
+		text-align: center;
+		background-color: #00aaff;
+	}
+	.main li a{
+		text-decoration: none;
+		color: #00aaff;
+		position: relative;
+		top: 7.5px;
+	}
+	.main li{
+		border-top: solid 2px #afafaf;
+		border-left: solid 2px #afafaf;
+		border-right: solid 2px gray;
+		border-bottom: solid 2px gray;
+		margin: 4px 0px 4px 0px;
+		height: 37px;
+		background-color: white;
+	}
+	.main .opt{
+		padding: 7px 59px 7px 59px;
+	}
+	.main .opt2{
+		padding: 7px 55px 7px 55px;
+	}
+	.main .opt3{
+		padding: 7px 24.5px 7px 24.5px;
+	}
+	.main .opt4{
+		padding: 7px 36px 7px 36px;	
+	}
+	.main .opt5{
+		padding: 7px 21px 7px 21px;
+	}
+	table{
+		border: solid 1px;
+		width: 95%;
+		margin: auto;
+		text-align: center;
+		position: relative;
+		top: 20px;
+	}
+	tr td{
+		border: solid 1px;
+		padding: 0px 1px 0px 1px;
+	}
+}

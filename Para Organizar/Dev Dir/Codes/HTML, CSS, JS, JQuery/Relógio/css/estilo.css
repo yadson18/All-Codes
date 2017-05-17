@@ -1,0 +1,62 @@
+body{
+	text-align: center; 
+	color: white;
+}
+.showTime{
+	text-align: center; 
+	box-shadow: 0px 0px 3px 2px black; 
+	width: 300px; 
+	margin: auto; 
+	background-color: #aaaaaa; 
+	padding: 4px;
+}
+#time{
+	 font-size: 40px; 
+	 color: white;
+}
+.timeDiv{
+	box-shadow: 0px 0px 2px 2px black; 
+	background-color:rgba(0,0,0,0.1); 
+	margin-bottom: 7px;
+}
+#horas, #minutos, #segundos{
+	height:30px;
+}
+#horas{
+	background-color:#005fff;
+}
+#minutos{
+	background-color:#009fcf;
+} 
+#segundos{
+	background-color: #00dfcf;
+}
+.display{
+	margin: auto;
+	text-align:center;
+	width:200px;
+	box-shadow:3px 3px 4px black;
+	color:#00a5ff;
+	padding: 7px;
+	border: solid 1px black;
+	background-color:white;
+	font-size:50px;
+}
+img{
+  width:60px;
+  margin-top:10px;
+}
+
+nav{
+	background-color: #00dfcf;
+	width: 30%;	
+	margin: auto;
+	padding: 8px;
+}
+#r, #c{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	margin: 0px 6px 0px 6px;
+	font-size: 18px;
+}

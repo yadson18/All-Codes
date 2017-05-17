@@ -1,0 +1,43 @@
+#register-login-form{
+	width: 25%;
+	text-align: center;
+	box-shadow: 2px 4px 6px gray;
+	padding: 9px;
+	position:absolute;
+	top:25%;
+	left:50%;
+	margin-left:-15%;
+	border-radius: 3px;
+}
+#register-login-form input{
+	width: 95%;
+	margin-top: 14px;
+	font-size: 20px;
+}
+#register-login-form p{
+	margin: 10px 0px 0px 0px;
+	padding: 0;
+	color: red;
+	font-size: 16px;
+	font-family: sans-serif;
+	display: none;
+}
+#register-login-form h2{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: sans-serif;
+}
+#register-login-form div{
+	width: 120px;
+	border: groove;
+	margin: auto;
+}
+#register-login-form a{
+	padding: 1px 27px 1px 27px;
+	text-decoration: none;
+	color: black;
+}
+#register-login-form #submitButton{
+	margin-bottom: 14px;
+	width: 35%;
+}

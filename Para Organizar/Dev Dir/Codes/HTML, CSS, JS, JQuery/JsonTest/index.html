@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet">
+	<script src="jquery-3.1.1.js"></script>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <script>
+	  var main =  function(){
+	    "use strict";
+		
+		$.getJSON("json/js.json", function(pessoa){
+		  var $pessoa = "Nome: " + pessoa["name"] + "\n" + "Idade: " + pessoa["age"];
+		  alert($pessoa);
+		});
+	  };
+	  a = 2;
+	  alert(a);
+	  $(document).ready(main);
+	</script>
+  </body>
+</html>		

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Game Test</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<script type="text/javascript">
+		rotate = 0; // Declaramos uma variável com a rotação 0.
+
+		document.addEventListener("DOMContentLoaded", function(){
+		// Usando eventListener, e quando a página for carregada...
+
+			document.getElementById("next").addEventListener("click", function(){ 
+			//Quando houver um clique no botão next..
+
+				//if(rotate== 360){rotate = 0} 
+				//Verificamos se o valor da variável rotate é 360, se for zeramos o valor.
+
+				rotate = (rotate + 45) % 360; 
+				//Fazemoz um incremento de 30, ou seja se antes tinha 0 e incrementamos 30 temos o valor de 30, na próxima execução se temos 30 e incrementamos mais 30, vamos para 60 e assim por diante.
+
+				document.getElementById("img").style.transform = "rotate("+rotate+"deg)"; 
+			//Acessamos o elemento img e através do style.transform atribuimos o rotate com o valor atual de nossa variável.
+			});
+
+			document.getElementById("back").addEventListener("click", function(){ 
+			//Quando houver um clique no botão voltar..
+
+				if(rotate== -360){rotate = 0} //Verificamos se o valor da variável rotate é -360, se for zeramos o valor.
+
+				rotate = rotate - 45 ;//Fazemoz um incremento de -30, ou seja se antes tinha 0 e incrementamos -30 temos o valor de -30, na próxima execução se temos -30 e incrementamos mais -30, vamos para -60 e assim por diante. isto fará nosso elemento voltar.
+
+				document.getElementById("img").style.transform = "rotate("+rotate+"deg)"; //Acessamos o elemento img e através do style.transform atribuimos o rotate com o valor atual de nossa variável.
+			});
+			
+			
+			document.getElementById("aleatorio").addEventListener("click", function(){ 
+				// if(rotate== 360){rotate = 0} 
+				document.getElementById("audio").play();
+
+			
+				var x = (12 + Math.floor((Math.random() * 10) + 1)) * 45;
+
+				var fn = function(x, k) {
+					rotate = (rotate + 1) % 360; 
+					document.getElementById("img").style.transform = "rotate("+rotate+"deg)"; 
+					if (k > 1) {
+						time = (50 / (k / x)) / 45;
+						// console.log(x, k, time);
+						setTimeout(function() {
+							fn(x, k - 1);
+						}, time);
+					}
+					// console.log(rotate);
+				};
+
+				fn(x, x);
+			});
+
+			
+
+		});
+
+		var socket;
+
+		function init() {
+			var host = "ws://127.0.0.1:9000/echobot"; // SET THIS TO YOUR SERVER
+			try {
+				socket = new WebSocket(host);
+				log('WebSocket - status '+socket.readyState);
+				socket.onopen    = function(msg) { 
+									   log("Welcome - status "+this.readyState); 
+								   };
+				socket.onmessage = function(msg) { 
+									   log("Received: "+msg.data); 
+								   };
+				socket.onclose   = function(msg) { 
+									   log("Disconnected - status "+this.readyState); 
+								   };
+			}
+			catch(ex){ 
+				log(ex); 
+			}
+			$("msg").focus();
+		}
+
+		function send(){
+			var txt,msg;
+			txt = $("msg");
+			msg = rotate;
+			txt.value=rotate;
+			txt.focus();
+			try { 
+				socket.send(rotate); // Aqui a msg que deve ser enviada
+				log('Sent: '+rotate); 
+		 	} catch(ex) { 
+				log(ex); 
+			}
+		}
+		function quit(){
+			if (socket != null) {
+				log("Goodbye!");
+				socket.close();
+				socket=null;
+			}
+		}
+
+		function reconnect() {
+			quit();
+			init();
+		}
+
+		// Utilities
+		function $(id){ return document.getElementById(id); }
+		function log(msg){ $("log").innerHTML+="<br>"+msg; }
+		function onkey(event){ if(event.keyCode==13){ send(); } }
+
+
+		function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+		</script>
+
+	</head>
+	<body onload="init()" class="parallax">
+		<nav>
+			<a class="indicador">Home</a>
+			<a href="#" style="cursor:pointer" onclick="openNav()">Game</a>
+			<a href="#">Records</a>
+		</nav>
+		<div id="conteudo">
+			<div id="chat">
+				<h3>Game Chat</h3>
+				<div id="log">
+				</div>
+				<div  class="overlay-content">
+					<input id="msg" type="textbox" onkeypress="onkey(event)"/>
+					<button class="send">Send</button>
+					<button class="reconnect" onclick="reconnect()">Reconnect</button>
+				</div>
+			</div>
+			<div id="myNav" class="overlay">
+  				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+					<div id="roleta"> 
+						<h1> Battle Of Knowledge </h1>
+						<audio id="audio">
+							<source src="audios/roleta-som.wav" type="audio/wav">
+						</audio>
+						<img src="imagens/roleta.png" id="img" alt="Teste" /><br>
+						<img class="seta" src="imagens/seta.png"><br>
+				    	<button class="estilizar" id="back">Voltar </button> <!--botão voltar-->
+					  	<button class="estilizar" id="next">Avançar</button> <!--botão avançar-->
+					  	<button onclick="send()" class="estilizar" id="aleatorio">Aleatório</button>
+					</div>
+					<div id="infos">
+				  		<h1>Quadro de informações</h1>
+					  	<div>
+					  		<span>Score</span>
+					  	</div>
+				  	</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<span>&copy; The World Software</span>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,134 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+#topo{
+	background:#BEBEBE;
+	width:945px;
+	height:300px;
+	margin:0 auto;
+	padding:0px;
+	
+}
+.tws{
+	margin-left: 210px;
+	margin-top: 80px;
+}
+#logo{
+	background:#000 ;
+	width:380px;
+	height: 200px;
+	margin-top: 50px;
+	float: left;
+}
+#logo p{
+	font-family: Verdana;
+	font-size: 30px;
+	margin-top: 20px;
+	float: right;
+}
+#contato{
+	background: #CDC9C9;
+	width: 180px;
+	height: 75px;
+	margin-top: 50px;
+	float: right;
+}
+#contato p {
+	font-family: verdana;
+	font-size: 15px;
+}
+ul {
+    width: 945px;
+	height: 45px;
+	margin: 0 auto;
+    list-style-type: none;
+    padding: 0; 
+    overflow-y: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+* {
+margin:0px;	
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#banner{
+	background: #BEBEBE;
+	width: 945px;
+	height: 170px;
+	margin: 0 auto;
+	
+}
+.baixo{
+	background: #BEBEBE;
+	width: 945px;
+	height: 400px;
+	margin: 0px auto;
+	padding: 0px;
+	text-align: center;
+
+}
+
+
+div.chamada{
+	background: #BEBEBE;
+	width: 245px;
+	height: 320px;
+	float: left;
+	margin-top: 20px;
+	margin-left:50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.chamada{
+	font-family: verdana;
+	
+}
+.chamada img {
+
+	border-radius: 5%;
+
+}
+h1, p{
+	text-align: center;
+}

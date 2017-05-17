@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet">
+	<script src="jquery-3.1.1.js"></script>
+  </head>
+  <body>
+    <div id="box">
+	  <h1 class="nameBar">Yadson Matheus</h1>
+	  <span class="close">X</span>
+	  <div class="chat">
+		
+	  </div>
+	  <input class="entrada"><button class="send">Send</button>
+	</div>
+	<script>
+	  $(".nameBar").click(function(){
+	    $(".chat").toggle();
+		$(".entrada").toggle();
+		$(".send").toggle();
+	  });
+	  
+	  $(".close").click(function(){
+		$("#box").toggle();
+	  });
+	</script>
+  </body>
+</html>		
