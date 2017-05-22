@@ -1,0 +1,60 @@
+
+O arquivo sources.list foi copiado para /etc/apt...
+
+Ign http://ftp.us.debian.org jessie InRelease
+Atingido http://security.debian.org jessie/updates InRelease
+Atingido http://ftp.us.debian.org jessie Release.gpg
+Atingido http://ftp.us.debian.org jessie Release
+Atingido http://security.debian.org jessie/updates/main amd64 Packages
+Atingido http://ftp.us.debian.org jessie/main amd64 Packages
+Atingido http://security.debian.org jessie/updates/contrib amd64 Packages
+Atingido http://ftp.us.debian.org jessie/contrib amd64 Packages
+Atingido http://ftp.us.debian.org jessie/non-free amd64 Packages
+Atingido http://security.debian.org jessie/updates/non-free amd64 Packages
+Atingido http://ftp.us.debian.org jessie/contrib Translation-en
+Atingido http://security.debian.org jessie/updates/contrib Translation-en
+Atingido http://ftp.us.debian.org jessie/main Translation-pt_BR
+Atingido http://security.debian.org jessie/updates/main Translation-en
+Atingido http://ftp.us.debian.org jessie/main Translation-pt
+Atingido http://ftp.us.debian.org jessie/main Translation-en
+Atingido http://security.debian.org jessie/updates/non-free Translation-en
+Atingido http://ftp.us.debian.org jessie/non-free Translation-en
+Lendo listas de pacotes...
+Lendo listas de pacotes...
+Construindo árvore de dependências...
+Lendo informação de estado...
+0 pacotes atualizados, 0 pacotes novos instalados, 0 a serem removidos e 0 não atualizados.
+Lendo listas de pacotes...
+Construindo árvore de dependências...
+Lendo informação de estado...
+0 pacotes atualizados, 0 pacotes novos instalados, 0 a serem removidos e 0 não atualizados.
+
+O arquivo sources.list foi copiado para /etc/apt...
+
+Ign http://ftp.us.debian.org jessie InRelease
+Atingido http://security.debian.org jessie/updates InRelease
+Atingido http://ftp.us.debian.org jessie Release.gpg
+Atingido http://security.debian.org jessie/updates/main amd64 Packages
+Atingido http://ftp.us.debian.org jessie Release
+Atingido http://security.debian.org jessie/updates/contrib amd64 Packages
+Atingido http://ftp.us.debian.org jessie/main amd64 Packages
+Atingido http://security.debian.org jessie/updates/non-free amd64 Packages
+Atingido http://ftp.us.debian.org jessie/contrib amd64 Packages
+Atingido http://security.debian.org jessie/updates/contrib Translation-en
+Atingido http://ftp.us.debian.org jessie/non-free amd64 Packages
+Atingido http://security.debian.org jessie/updates/main Translation-en
+Atingido http://ftp.us.debian.org jessie/contrib Translation-en
+Atingido http://security.debian.org jessie/updates/non-free Translation-en
+Atingido http://ftp.us.debian.org jessie/main Translation-pt_BR
+Atingido http://ftp.us.debian.org jessie/main Translation-pt
+Atingido http://ftp.us.debian.org jessie/main Translation-en
+Atingido http://ftp.us.debian.org jessie/non-free Translation-en
+Lendo listas de pacotes...
+Lendo listas de pacotes...
+Construindo árvore de dependências...
+Lendo informação de estado...
+0 pacotes atualizados, 0 pacotes novos instalados, 0 a serem removidos e 0 não atualizados.
+Lendo listas de pacotes...
+Construindo árvore de dependências...
+Lendo informação de estado...
+0 pacotes atualizados, 0 pacotes novos instalados, 0 a serem removidos e 0 não atualizados.
